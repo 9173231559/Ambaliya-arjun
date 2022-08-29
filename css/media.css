@@ -1,0 +1,21 @@
+@media(max-width:318px){
+  .navbar-toggle{
+      display: block;
+      margin-right: 20px;
+
+  }
+  nav{
+      position: absolute;
+      top: 75px;
+      left: -230px;
+      box-shadow: black;
+      bottom: 0;
+      width: 230px;
+  }
+  nav ul{
+      flex-direction: column;
+  }
+  nav ul li{
+      padding: 10px 15px;
+  }
+}
